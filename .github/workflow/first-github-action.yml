@@ -1,0 +1,10 @@
+# This is github action workflow shell script
+
+name: Run Shell Commands
+on: [push]
+jobs:
+  run-shell-command:
+    run-on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "Hello DevSecOps Engineer!! This is a simple github action file"
